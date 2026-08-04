@@ -10,15 +10,16 @@ int main()
 	// take in the amount of players and also k finisher score.
 	std::cin >> n >> k;
 
+
 		int numbers[n];
-		for (int i = 0; i <= n; i++) 
+		for (int i = 0; i < n; i++) 
 		{
         	std::cin >> numbers[i];
     	}
 
-    	while(idx <= n)
+    	while(idx < n)
 		{
-        	if(numbers[k] <= numbers[idx])
+        	if((numbers[k - 1] <= numbers[idx]) && (numbers[idx] > 0))
         	{
         		count++;
         	}
