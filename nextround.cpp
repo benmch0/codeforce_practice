@@ -7,7 +7,6 @@ int main()
 	int idx = 0;
 	int count = 0;
 
-	// take in the amount of players and also k finisher score.
 	std::cin >> n >> k;
 
 
